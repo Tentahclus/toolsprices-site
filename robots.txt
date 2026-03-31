@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://toolsprices.com/sitemap.xml
+
+# Block common bots that don't respect rules
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: MJ12bot
+Allow: /
+
+# Crawl-delay for aggressive crawlers
+User-agent: *
+Crawl-delay: 1

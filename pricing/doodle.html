@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doodle - Preços e Planos | ToolsPrices.com</title>
+    <meta name="description" content="Doodle é uma ferramenta agendamento premium que oferece funcionalidades avançadas para melhorar a sua produtividade.. Compare planos, preços e funcionalidades do Doodle.">
+    <meta name="keywords" content="Doodle, preços Doodle, planos Doodle, Doodle preços">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Doodle - Preços e Planos">
+    <meta property="og:description" content="Doodle é uma ferramenta agendamento premium que oferece funcionalidades avançadas para melhorar a sua produtividade.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://toolsprices.com/pricing/doodle">
+    <meta property="og:image" content="https://toolsprices.com/images/doodle.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Doodle - Preços e Planos">
+    <meta name="twitter:description" content="Doodle é uma ferramenta agendamento premium que oferece funcionalidades avançadas para melhorar a sua produtividade.">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://toolsprices.com/pricing/doodle">
+    
+    <!-- Schema Markup - SoftwareApplication -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Doodle",
+        "description": "Doodle é uma ferramenta agendamento premium que oferece funcionalidades avançadas para melhorar a sua produtividade.",
+        "url": "https://doodle.com",
+        "applicationCategory": "Agendamento",
+        "operatingSystem": "Web, iOS, Android",
+        "offers": [
+            {
+                "@type": "Offer",
+                "name": "Free",
+                "price": "Gratuito",
+                "priceCurrency": "EUR",
+                "billingPeriod": "Mensal",
+                "description": "{{ PLAN_1_FEATURES }}"
+            },
+            {
+                "@type": "Offer",
+                "name": "Pro",
+                "price": "19€",
+                "priceCurrency": "EUR",
+                "billingPeriod": "Mensal",
+                "description": "Todas as funcionalidades, projetos ilimitados, 10GB"
+            },
+            {
+                "@type": "Offer",
+                "name": "Enterprise",
+                "price": "49€",
+                "priceCurrency": "EUR",
+                "billingPeriod": "Mensal",
+                "description": "Funcionalidades avançadas, SSO, suporte 24/7, 100GB"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.4",
+            "ratingCount": "3500"
+        }
+    }
+    </script>
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+        }
+        header { text-align: center; margin-bottom: 40px; border-bottom: 2px solid #eee; padding-bottom: 20px; }
+        .logo { color: #0066cc; text-decoration: none; font-weight: bold; font-size: 1.5em; }
+        .breadcrumb { color: #666; font-size: 0.9em; margin: 10px 0; }
+        .breadcrumb a { color: #0066cc; text-decoration: none; }
+        
+        h1 { color: #1a1a1a; font-size: 2.2em; margin-bottom: 15px; }
+        .tool-intro { color: #666; font-size: 1.1em; margin-bottom: 20px; }
+        .tool-meta { display: flex; gap: 20px; margin-top: 15px; font-size: 0.9em; color: #666; }
+        .tool-meta span { background: #f5f5f5; padding: 5px 15px; border-radius: 15px; }
+        
+        .pricing-table { 
+            margin: 40px 0; 
+            border: 1px solid #ddd; 
+            border-radius: 8px; 
+            overflow: hidden; 
+        }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 15px; text-align: left; border-bottom: 1px solid #eee; }
+        th { background: #f8f9fa; font-weight: 600; color: #333; }
+        tr:hover { background: #fafafa; }
+        .price { font-size: 1.3em; font-weight: bold; color: #0066cc; }
+        .feature-check { color: #28a745; }
+        .feature-cross { color: #dc3545; }
+        
+        .features-section { margin: 40px 0; }
+        .features-section h2 { margin-bottom: 20px; }
+        .feature-list { list-style: none; }
+        .feature-list li { 
+            padding: 8px 0; 
+            padding-left: 30px; 
+            position: relative;
+        }
+        .feature-list li::before { 
+            content: "✓"; 
+            position: absolute; 
+            left: 0; 
+            color: #28a745; 
+            font-weight: bold;
+        }
+        
+        .cta-box { 
+            background: #f0f7ff; 
+            border-left: 4px solid #0066cc; 
+            padding: 20px; 
+            margin: 40px 0; 
+            border-radius: 4px;
+        }
+        .cta-box a { 
+            display: inline-block; 
+            background: #0066cc; 
+            color: #fff; 
+            padding: 12px 25px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: 500;
+            margin-top: 10px;
+        }
+        .cta-box a:hover { background: #0052a3; }
+        
+        footer { margin-top: 60px; padding-top: 20px; border-top: 2px solid #eee; text-align: center; color: #666; }
+        
+        @media (max-width: 700px) {
+            h1 { font-size: 1.8em; }
+            .tool-meta { flex-wrap: wrap; }
+            table { font-size: 0.9em; }
+            th, td { padding: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/" class="logo">🛠️ ToolsPrices.com</a>
+        <div class="breadcrumb">
+            <a href="/">Home</a> &gt; <a href="/pricing">Preços</a> &gt; Doodle
+        </div>
+    </header>
+
+    <main>
+        <h1>Doodle</h1>
+        <p class="tool-intro">Doodle é uma ferramenta agendamento premium que oferece funcionalidades avançadas para melhorar a sua produtividade.</p>
+        <div class="tool-meta">
+            <span>📂 Agendamento</span>
+            <span>💻 Web, iOS, Android</span>
+            <span>⭐ 4.4/5 (3500 reviews)</span>
+        </div>
+
+        <section class="pricing-table">
+            <h2>Planos e Preços</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Plano</th>
+                        <th>Preço</th>
+                        <th>Faturação</th>
+                        <th>Funcionalidades</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Free</strong></td>
+                        <td class="price">Gratuito</td>
+                        <td>Mensal</td>
+                        <td>{{ PLAN_1_FEATURES }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pro</strong></td>
+                        <td class="price">19€</td>
+                        <td>Mensal</td>
+                        <td>Todas as funcionalidades, projetos ilimitados, 10GB</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Enterprise</strong></td>
+                        <td class="price">49€</td>
+                        <td>Mensal</td>
+                        <td>Funcionalidades avançadas, SSO, suporte 24/7, 100GB</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="features-section">
+            <h2>Características Principais</h2>
+            <ul class="feature-list">
+                <li>Interface intuitiva e fácil de usar</li>
+                <li>Integrações com outras ferramentas populares</li>
+                <li>Suporte em tempo real</li>
+                <li>Relatórios e análises detalhadas</li>
+                <li>Segurança de nível empresarial</li>
+                <li>Colaboração em equipa em tempo real</li>
+            </ul>
+        </section>
+
+        <section class="cta-box">
+            <h3>Experimente o Doodle</h3>
+            <p>Ainda tem dúvidas? Visite o site oficial para ver mais detalhes ou começar um teste gratuito.</p>
+            <a href="https://doodle.com" target="_blank" rel="noopener">Visitar Site Oficial &rarr;</a>
+        </section>
+
+        <section>
+            <h2>Sobre o Doodle</h2>
+            <p>Doodle é uma das ferramentas agendamento mais populares do mercado. Com uma interface intuitiva e funções poderosas, permite-lhe otimizar o seu trabalho e colaborar com equipas de forma eficiente. Ideal para profissionais e empresas que procuram uma solução fiável.</p>
+            <p style="margin-top: 15px;">
+                <strong>Website:</strong> <a href="https://doodle.com" target="_blank" rel="noopener">https://doodle.com</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ToolsPrices.com. Informações atualizadas regularmente.</p>
+        <p style="margin-top: 10px;">
+            <a href="/">Home</a> | <a href="/pricing">Todas as Ferramentas</a>
+        </p>
+    </footer>
+</body>
+</html>
