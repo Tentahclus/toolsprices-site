@@ -122,7 +122,7 @@ tools.forEach(tool => {
         .replace(/\{\{ PLAN_1_NAME \}\}/g, 'Free')
         .replace(/\{\{ PLAN_1_PRICE \}\}/g, 'Gratuito')
         .replace(/\{\{ PLAN_1_BILLING \}\}/g, 'Mensal')
-        .replace(/\{ \{ PLAN_1_FEATURES \} \}/g, 'Funcionalidades básicas, 5 projetos, 100MB')
+        .replace(/\{\{ PLAN_1_FEATURES \}\}/g, 'Funcionalidades básicas, 5 projetos, 100MB')
         .replace(/\{\{ PLAN_2_NAME \}\}/g, 'Pro')
         .replace(/\{\{ PLAN_2_PRICE \}\}/g, '19€')
         .replace(/\{\{ PLAN_2_BILLING \}\}/g, 'Mensal')
