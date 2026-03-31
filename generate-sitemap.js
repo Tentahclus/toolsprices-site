@@ -5,7 +5,10 @@ const baseUrl = 'https://toolsprices.com';
 
 const pages = [
     '/',
-    '/pricing'
+    '/pricing',
+    '/privacy.html',
+    '/terms.html',
+    '/contact.html'
 ];
 
 // Add pricing pages from the tools list
